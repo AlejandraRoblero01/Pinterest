@@ -1,0 +1,117 @@
+#pinterest-icon{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+    width: 47px;
+ 
+}
+
+#navbar-pinterest{
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    width: 100vw;
+
+}
+
+.Boton1{
+    background-color: black;
+    width: 70px;
+    height: 100%;
+    border-radius: 32px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Boton2{
+    width: 90px;
+    height: 100%;
+    border-radius: 32px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.Boton3{
+    width: 70px;
+    height: 100%;
+    border-radius: 32px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Fider{
+    width: 75%;
+    height: 100%;
+
+}
+
+.Finder input{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    padding-left: 40px;
+    border-radius: 32px;
+    background-color: rgb(214, 214, 214);
+    border: none;
+
+}
+
+.Container-notification{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 100px;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*--Imagenes--*/
+
+main{
+    width: 100vw; 
+}
+
+.grid-container{
+    padding: 0.5%;
+    margin: 3%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1%;
+
+}
+
+img{
+    max-width: 100%;
+    height: 90%;
+    border-radius: 8%;
+    object-fit: cover;
+    margin: 2px;
+
+}
+
+img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+
+}
+
+.gallery{
+    columns: 5 320px;
+    column-gap: normal;
+}
+
